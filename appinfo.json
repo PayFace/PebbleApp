@@ -1,8 +1,8 @@
 {
   "uuid": "ed4bd38e-6b71-4cc2-a3cf-1a3732ec2f2b",
-  "shortName": "Image viewer",
-  "longName": "Image viewer",
-  "companyName": "Gregoire Sage",
+  "shortName": "PayFace",
+  "longName": "PayFace",
+  "companyName": "PayFace",
   "versionCode": 3,
   "versionLabel": "1.2.0",
   "watchapp": {

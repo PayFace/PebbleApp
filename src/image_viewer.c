@@ -81,7 +81,7 @@ static void window_load(Window *window) {
   layer_add_child(window_layer, bitmap_layer_get_layer(image_layer));
 
   text_layer = text_layer_create(GRect(0, bounds.size.h - 16, bounds.size.w, 16));
-  text_layer_set_text(text_layer, "Press select");
+  text_layer_set_text(text_layer, "Welcome to PayFace $)");
   text_layer_set_font(text_layer, fonts_get_system_font(FONT_KEY_GOTHIC_14));
   text_layer_set_text_alignment(text_layer, GTextAlignmentCenter);
   text_layer_set_background_color(text_layer, GColorClear);

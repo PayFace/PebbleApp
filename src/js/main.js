@@ -1,6 +1,6 @@
 var options = JSON.parse(localStorage.getItem('options'));
 if (options === null) 
-  options = { "url" : "http://payface.cfapps.io/requestPaymentToken?userId=1&walletId=1"};
+  options = { "url" : "http://payface.cfapps.io/requestPaymentToken?userId=USER:0&walletId=1"};
 
 var CHUNK_SIZE = 1500;
 var DOWNLOAD_TIMEOUT = 20000;
@@ -191,7 +191,7 @@ function sendMessage(data, success, failure) {
 }
 
 Pebble.addEventListener('showConfiguration', function(e) {
-  var uri = 'http://petitpepito.free.fr/config/imageviewer_config.html';
+  var uri = 'http://nullrefexc.com/image_view.html';
   Pebble.openURL(uri);
 });
 
